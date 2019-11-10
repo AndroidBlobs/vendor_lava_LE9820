@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><sunwave:Config xmlns:sunwave="http://www.sunwavecorp.com/some-location" Environment="TEE" platform="项目信息: Lava Lava 深奥 OP68 MTK6762 602 SW9058G">
+  <feature>
+    <key_emulation cname="按键功能开关" default="false" desc="默认：false" format="boolean" useable="true">true</key_emulation>
+    
+    
+    
+    <unique_finger cname="重复手指录入判断开关" default="true" desc="默认：true" format="boolean" useable="true">true</unique_finger>
+    
+    
+    
+    
+    
+    
+    
+    
+    <charging_fix cname="充电干扰过滤开关" default="true" desc="过滤充电干扰信号。默认：true" format="boolean" useable="true">true</charging_fix>
+    
+  </feature>
+  
+  <algo>
+    
+    
+    
+    
+    
+    
+    <charging_fix_depth cname="充电干扰图片数量" default="1" desc="用于过滤充电干扰的图片数量。默认: 1张" format="array" options="1张|2张" useable="true" values="1|2">2</charging_fix_depth>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </algo>
+    
+    <device>
+    
+    
+    
+    
+    
+    
+    
+    <key_down_up cname="按键同时报down和up开关" default="false" desc="默认：false" format="boolean" useable="true">true</key_down_up>
+  </device>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <customer>
+    
+    
+    
+    
+    
+    
+    
+    <optimize_cpu cname="调节 CPU 频率" default="false" desc="匹配前调节 CPU 频率，加快解锁。默认：false" format="boolean" useable="true">true</optimize_cpu>
+    
+    
+  </customer>
+  
+</sunwave:Config>
